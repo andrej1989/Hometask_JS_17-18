@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Space images</title>
+
+    <!-- Bootstrap -->
+    <link href="css/dist/stile.main.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/easydropdown.css">
+    <link rel="stylesheet" href="css/style.css"> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="mainmenu">
+      <div class="container">
+        <ul class="menu">
+          <li class="menu__item"><a href="" class="menu__link">nav 1</a></li>
+          <li class="menu__item"><a href="" class="menu__link">nav 2</a></li>
+          <li class="menu__item dropdowns"><a href="" class="menu__link menu__link-sub">nav 3 </a> 
+            <ul class="submenu sub-menu">
+              <li class="submenu__item"><a href="" class="submenu__link">nav 3.1</a></li>
+              <li class="submenu__item"><a href="" class="submenu__link">nav 3.2</a></li>
+              <li class="submenu__item"><a href="" class="submenu__link">nav 3.3</a></li>
+              <li class="submenu__item dropdowns"><a href="" class="submenu__link submenu__link-three " >nav 3.4 </a>
+                <ul class="threemenu sub-menu" id="threemenu">
+                  <li class="threemenu__item"><a href="" class="threemenu__link">nav 3.4.1</a></li>
+                  <li class="threemenu__item"><a href="" class="threemenu__link">nav 3.4.2</a></li>
+                  <li class="threemenu__item"><a href="" class="threemenu__link">nav 3.4.3</a></li>
+                  <li class="threemenu__item"><a href="" class="threemenu__link">nav 3.4.4</a></li>
+                  <li class="threemenu__item"><a href="" class="threemenu__link menu__link-last">nav 3.4.5</a></li>
+                </ul>
+              </li>
+              <li class="submenu__item"><a href="" class="submenu__link menu__link-last">nav 3.5</a></li>
+            </ul>
+          </li>
+          <li class="menu__item"><a href="" class="menu__link">nav 4</a></li>
+          <li class="menu__item"><a href="" class="menu__link">nav 5</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2>Карусель:</h2>
+      <div class="jcarousel-wrapper">
+
+                <div class="jcarousel" data-jcarousel="true">
+                    <ul style="left: -600px; top: 0px;">
+                        
+                    <li style="width: 180px;"><img src="img/space1.jpg" alt="Image 1"></li><li style="width: 180px;"><img src="img/space2.jpg" alt="Image 2"></li><li style="width: 180px;"><img src="img/space3.jpg" alt="Image 3"></li><li style="width: 180px;"><img src="img/space4.jpg" alt="Image 4"></li><li style="width: 180px;"><img src="img/space5.jpg" alt="Image 5"></li><li style="width: 180px;"><img src="img/space6.jpg" alt="Image 6"></li></ul>
+                </div>
+
+                <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹</a>
+                <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
+
+                <p class="jcarousel-pagination" data-jcarouselpagination="true"><a href="#1">1</a><a href="#2">2</a><a href="#3">3</a><a href="#4" class="active">4</a><a href="#5">5</a><a href="#6">6</a></p>
+      </div>
+
+      <h2>Селект:</h2>
+      <select class="dropdown">
+          <option value="" class="label">Select</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+          <option value="5">Option 5</option>
+      </select>
+
+      <h2>Checkbox на jQuery:</h2>
+      <label for="1" class="check"><span class="checkbox"><input type="checkbox" name="" id="1" class="check" checked="checked"></span>Checkbox на jQuery 1</label>
+      <label for="2" class="check"><span class="checkbox"><input type="checkbox" name="" id="2" class="check"></span>Checkbox на jQuery 2</label>
+      <label for="3" class="check"><span class="checkbox"><input type="checkbox" name="" id="3" class="check"></span>Checkbox на jQuery 3</label>
+
+      <h2>Checkbox на CSS:</h2>
+      <label for="4" class="checkCSS"><input type="checkbox" name="" id="4" class="check" checked="checked"><span class="checkbox"></span>Checkbox на CSS 1</label>
+      <label for="5" class="checkCSS"><input type="checkbox" name="" id="5" class="check"><span class="checkbox"></span>Checkbox на CSS 2</label>
+      <label for="6" class="checkCSS"><input type="checkbox" name="" id="6" class="check"><span class="checkbox"></span>Checkbox на CSS 3</label>
+
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/dist/script.main.min.js"></script>
+<!--     <script src="js/jquery.easydropdown.js"></script>
+    <script src="js/jquery.checkbox.js"></script>
+    <script src="js/nav.js"></script> -->
+  </body>
+</html>
